@@ -1017,7 +1017,7 @@ MonoBehaviour:
     - {x: 0.26848593, y: -0.16923992, z: -0.24379699, w: 0.91642576}
     - {x: -0.08320489, y: 0.06610275, z: -0.04832889, w: 0.9931625}
     - {x: 0.0964925, y: -0.0251861, z: -0.38128614, w: 0.9190625}
-    - {x: 0.02961923, y: 0.05772918, z: -0.09858366, w: 0.99301124}
+    - {x: 0.029619241, y: 0.05772918, z: -0.098583706, w: 0.99301124}
     - {x: -0.024544183, y: -0.007889522, z: -0.53979415, w: 0.84140223}
     - {x: -0.017120205, y: 0.021889105, z: -0.21484014, w: 0.97625387}
     - {x: -0.016387992, y: 0.055773642, z: -0.1919141, w: 0.9796886}
@@ -1590,6 +1590,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 423038079}
   m_CullTransparentMesh: 0
+--- !u!1 &453015926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 453015927}
+  - component: {fileID: 453015928}
+  m_Layer: 0
+  m_Name: WheelGrabPoseVisulizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453015927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453015926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &453015928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453015926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92dfeec9bca03f34fba56dad86ccdd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _handGrabInteractor: {fileID: 0}
+  _grabInteractable: {fileID: 545050862}
+  _ghostProvider: {fileID: 0}
+  _visualizeKey: 118
+  _visualizeStopKey: 32
 --- !u!1 &492512462
 GameObject:
   m_ObjectHideFlags: 0
@@ -6475,7 +6524,7 @@ MonoBehaviour:
     - {x: 0.26848593, y: -0.16923992, z: -0.24379699, w: 0.91642576}
     - {x: -0.08320489, y: 0.06610275, z: -0.04832889, w: 0.9931625}
     - {x: 0.0964925, y: -0.0251861, z: -0.38128614, w: 0.9190625}
-    - {x: 0.029619232, y: 0.05772918, z: -0.09858367, w: 0.99301124}
+    - {x: 0.029619236, y: 0.05772918, z: -0.09858368, w: 0.99301124}
     - {x: -0.024544183, y: -0.007889522, z: -0.53979415, w: 0.84140223}
     - {x: -0.017120205, y: 0.021889105, z: -0.21484014, w: 0.97625387}
     - {x: -0.016387992, y: 0.055773642, z: -0.1919141, w: 0.9796886}
